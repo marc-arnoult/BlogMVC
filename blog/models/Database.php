@@ -25,6 +25,3 @@ class Database {
         return $this->pdo;
     }
 }
-
-/*$pdo = new PDO('mysql:host=db;dbname=blog;charset=utf8', 'root', 'root');
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);*/
