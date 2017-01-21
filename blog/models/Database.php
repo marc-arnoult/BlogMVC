@@ -1,0 +1,30 @@
+<?php
+
+class Database {
+    private $host;
+    private $dbName;
+    private $username;
+    private $password;
+    private $pdo;
+
+    public function __construct($host = 'localhost', $dbName, $username, $password)
+    {
+        $this->host     = $host;
+        $this->dbName   = $dbName;
+        $this->username = $username;
+        $this->password = $password;
+    }
+
+    public function getPdo ()
+    {
+        if($this->pdo === null) {
+            $pdo = new PDO("mysql:host=$this->host;dbname=$this->dbName;charset=utf8", $this->username, $this->password);
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+            $this->pdo = $pdo;
+        }
+        return $this->pdo;
+    }
+}
+
+/*$pdo = new PDO('mysql:host=db;dbname=blog;charset=utf8', 'root', 'root');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);*/
