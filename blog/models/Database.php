@@ -15,7 +15,7 @@ class Database {
         $this->password = $password;
     }
 
-    public function getPdo ()
+    public function getPdo () : PDO
     {
         if($this->pdo === null) {
             $pdo = new PDO("mysql:host=$this->host;dbname=$this->dbName;charset=utf8", $this->username, $this->password);

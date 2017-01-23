@@ -12,14 +12,14 @@ class Article
     /**
      * @return integer
      */
-    public function __construct($author, $title, $content)
+    public function __construct(string $author,string $title,string $content)
     {
         $this->author  = $author;
         $this->title   = $title;
         $this->content = $content;
     }
 
-    public function getId()
+    public function getId() : int
     {
         return $this->id;
     }
@@ -27,7 +27,7 @@ class Article
     /**
      * @param integer $id
      */
-    public function setId($id)
+    public function setId(int $id)
     {
         $id = (int) $id;
 
@@ -39,7 +39,7 @@ class Article
     /**
      * @return mixed
      */
-    public function getAuthor()
+    public function getAuthor() : string
     {
         return $this->author;
     }
@@ -47,7 +47,7 @@ class Article
     /**
      * @param mixed $author
      */
-    public function setAuthor($author)
+    public function setAuthor(string $author)
     {
         if (is_string($author)) {
             $this->author = $author;
@@ -57,7 +57,7 @@ class Article
     /**
      * @return mixed
      */
-    public function getTitle()
+    public function getTitle() : string
     {
         return $this->title;
     }
@@ -65,7 +65,7 @@ class Article
     /**
      * @param mixed $title
      */
-    public function setTitle($title)
+    public function setTitle(string $title)
     {
         if (is_string($title)) {
             $this->title = $title;
@@ -75,7 +75,7 @@ class Article
     /**
      * @return mixed
      */
-    public function getContent()
+    public function getContent() : string
     {
         return $this->content;
     }
@@ -83,7 +83,7 @@ class Article
     /**
      * @param mixed $content
      */
-    public function setContent($content)
+    public function setContent(string $content)
     {
         if (is_string($content)) {
             $this->content = $content;

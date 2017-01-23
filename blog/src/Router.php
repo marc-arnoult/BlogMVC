@@ -6,7 +6,7 @@ class Router
     private $routes = [];
     private $url;
 
-    public function __construct($route, $url)
+    public function __construct(array $route, $url)
     {
         $this->routes = $route;
         $this->url = $url;
