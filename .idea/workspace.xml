@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be225de-febc-42bb-a957-b8fce10eecd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/ib_logfile0" afterPath="$PROJECT_DIR$/data/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/ibdata1" afterPath="$PROJECT_DIR$/data/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/ibtmp1" afterPath="$PROJECT_DIR$/data/ibtmp1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/controllers/indexController.php" afterPath="$PROJECT_DIR$/blog/controllers/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.php" afterPath="$PROJECT_DIR$/blog/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models/ArticleDAO.php" afterPath="$PROJECT_DIR$/blog/models/ArticleDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models/Database.php" afterPath="$PROJECT_DIR$/blog/models/Database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/src/Article.php" afterPath="$PROJECT_DIR$/blog/src/Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/src/Router.php" afterPath="$PROJECT_DIR$/blog/src/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -249,16 +241,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485190025563</updated>
-      <workItem from="1485190026904" duration="2097000" />
+      <workItem from="1485190026904" duration="2639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2097000" />
+    <option name="totallyTimeSpent" value="2639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="508" y="130" width="1284" height="885" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24879228" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -266,7 +258,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
