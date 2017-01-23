@@ -1,4 +1,6 @@
 <?php
+namespace Model;
+use \PDO;
 
 class Database {
     private $host;
