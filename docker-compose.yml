@@ -4,12 +4,12 @@ web:
   - "8080:80"
   - "8443:443"
  volumes:
-  - /Users/marc/site/sometest/BlogMVC/blog:/var/www/html
+  - $PWD/blog:/var/www/html
  links:
   - db:db
 db:
  image: mysql
  volumes:
-  - /Users/marc/site/sometest/BlogMVC/data:/var/lib/mysql
+  - $PWD/data:/var/lib/mysql
  environment:
   MYSQL_ROOT_PASSWORD: root
