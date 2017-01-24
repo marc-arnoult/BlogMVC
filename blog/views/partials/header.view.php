@@ -15,15 +15,15 @@
             <nav>
                 <ul>
                     <div>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/articles">Articles</a></li>
                     </div>
 
                     <img src="/public/img/logo.png" alt="logo">
 
                     <div>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </div>
                 </ul>
             </nav>
