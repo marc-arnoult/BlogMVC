@@ -1,5 +1,6 @@
 <?php
 namespace Model;
+use App\Article;
 use \PDO;
 
 class ArticleDAO

@@ -16,13 +16,13 @@
                 <ul>
                     <div>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">Articles</a></li>
                     </div>
 
                     <img src="/public/img/logo.png" alt="logo">
 
                     <div>
-                        <li><a href="#">Category</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </div>
                 </ul>
