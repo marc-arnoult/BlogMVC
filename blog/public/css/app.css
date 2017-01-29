@@ -139,6 +139,18 @@ hr {
     transform: scale(1.1);
 }
 @media screen and (max-width: 780px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul div:nth-child(3) {
+        left: 0px;
+    }
+    header nav ul li {
+        padding: 0;
+    }
+    header img {
+        display: none;
+    }
     section {
         width: auto;
     }
